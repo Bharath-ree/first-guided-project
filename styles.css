@@ -1,0 +1,202 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+    max-width: 1600px;
+    
+    margin: 0 auto;
+
+}
+
+.header {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+.header li {
+    list-style-type: none;
+    list-style: none;
+
+}  
+a{
+    color: #E5E7EB; 
+    text-decoration: none; 
+}
+
+.header ul {
+    display: flex;
+    gap: 20px;
+}
+
+
+.main {
+    background-color: #1F2937;
+    padding: 20px 100px;
+    display: flex;
+    gap: 100px;
+}
+
+
+
+.main h2{
+    background-color: #1F2937;
+    color: #F9faf8;
+    font-size: 48px;
+    font-weight: 900;    
+
+}
+
+.main p {
+    font-size: 18px;
+    color: #E5E7EB;
+    line-height: 1.6;
+}
+button {
+    background-color: #3B82F6;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    min-width: 120px;
+    max-width: 200px;
+}
+img {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: auto;
+   
+}
+
+.mid-part {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+
+    
+}
+
+.mid-part h3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.mid-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    gap: 15px;
+    
+
+}
+.mid-container img {
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.mid-container p {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+}
+
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 40px 200px;
+    font-size: 36px;
+    font-style: light italic;
+    text-align: start;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}.quote .author {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 10px;
+    align-self: flex-end;
+    text-align: right;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 40px 100px;
+    text-align: center;
+    margin: 100px 80px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    text-align: start;
+
+
+}
+.sign-up-text .bold {
+    font-weight: 800;
+    font-size: 24px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+
+}
+.sign-up p {
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+.sign-up button {
+    background-color: #3B82F6;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    padding: 8px 24px;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    min-width: 120px;
+    max-width: 200px;
+    box-sizing: border-box;      /* Ensure padding/border included in height */
+    height: 50px;                /* Explicit height */
+    align-self: center; /* Center the button vertically */
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px 100px;
+    text-align: center;
+
+    display: flex;
+
+    justify-content: center;
+}
+
+
+
+
+
